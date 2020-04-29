@@ -76,6 +76,7 @@ class Daletou:
 
 if __name__ == '__main__':
     letou = Daletou()
+    #生成5组随机选号
     for h in range(5):
         letou.run()
     time.sleep(10)
